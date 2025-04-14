@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jacob's Portfolio | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel='stylesheet' href='index.css'>
+    </head>
+
+    <body>
+    <header>
+        <content id='websiteTitleTop'>
+            <h1>Jacob Nelson-Foale</h1>
+        </content>
+        <nav id='navBarTop'>
+            <a class='navBarItems' href="#aboutMe">About</a>
+            <a class='navBarItems' href="#experiance">Experiance</a>
+            <a class='navBarItems'>Blog</a>
+            
+        </nav>
+        <content>
+            <button id='contactButtonTop'>Contact</button>
+        </content>
+    </header>
+
+    <content id='introduction'>
+        <h2 class='marginFix'>Hi, I'm Jacob.</h2>
+    </content>
+    <content id="aboutMe">
+        <p class='marginFix' id='aboutMeParagraph'>and I'm keen to show my experiance and meet new people 
+            along the way. I have been quite fond of tech and verious fields in IT (specifically programing) 
+            for as long as I can remember. I have an interest in learning web technologies, linguistics, comparitive religion and traveling. Helping solve problems is one of the most exciting parts of tech and as you will see from my portfolio one of the motivators for my projects. I look forward to working in freelancing and help business owners get their ideas out to the world. Any colaboration is a great opertunity for growth and if you want to get contact with me feel free to fill the worm out below.</p>
+            <img id='imageCorrect' src='./img/jacob.jpg'>
+    </content>
+    <content id="experiance">
+        <h2>Experiance</h2>
+        <h3>Most Notible Projects</h2>
+        <h4>Text editor</h3>
+        <p class='marginFix'>Notepad rip off I made in an afternoon because why not. 
+           It turned out better than I though and I learnt a lot about project organisation
+           and writing a (half finshed) wiki page for the project.</p>
+        <br>
+        <br>
+        <h4>Webmaker.py - static site generator</h3>
+        <p class='marginFix'>A static site generator that runs a script and formats markdown files and sorts them into a static blog website. The project alows for custom themes if you edited the CSS file and was inspired by the tool Hugo. The project could do with a face lift though as I knew more python at the time of writing it then CSS.</p>
+        <br>
+        <h4>CurseForge-CLI-gui - forked project</h3>
+        <p class='marginFix'>Forked a really convinent project on github and gave it a gui. It is a launcher for downloading mods from curseforge specifically for linux.</p>
+        <br>
+        <br>
+    </content>
+    <content id='skillsTitle'>
+        <h3>Skills</h3>
+    </content>
+    <content id='skills'>
+            
+            <article class='statBox' id='pythonStatbox'>
+                <h3>Python</h3>
+            </article>
+            <article class='statBox' id='htmlStatbox'>
+                <h3>HTML</h3>
+            </article>
+            <article class='statBox' id='cssStatbox'>
+                <h3>CSS</h3>
+            </article>
+            <article class='statBox' id='javascriptStatbox'>
+                <h3>Some Javascript</h3>
+            </article>
+    </content>
+
+    <content id='contact'>
+        <h2>Contact Form</h2>
+            <form>
+                
+                <label>First Name: </label>
+                <input name='firstName' type='text' required>
+                <label>Last Name: </label>
+                <input name='lastName' type='text' required>
+                <br>
+                <br>
+                <label>Email: </label>
+                <input name='email' type='text' required>
+                <br>
+                <br>
+                <label>Purpose: </label>
+                <select name='purpose'>
+                    <option value='generalEnquire'>General Enquery</option>
+                    <option value='freelancingProject'>Freelance Project</option>
+                </select>
+                <br>
+                <br>
+                <input name='message' value='Your message here...' type='text' id='messageContactForm'>
+                <br>
+                <input type='submit'>
+            </form>
+    </content>
+
+    </body>
+
+    <footer>
+        <h3>Reach out at</h3>
+        <p class='marginFix'>Email: Jacobnelsonfoale@tuta.io</p>
+        <p class='marginFix'>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/jacob-nelson-foale-2a5737358/">Jacob Nelson-Foale</a></p>
+    </footer>
+</html>

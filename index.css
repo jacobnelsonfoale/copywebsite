@@ -1,0 +1,204 @@
+body {
+    background-color: #151515;
+    color: #e6e6e6;   
+    font-family: Verdana;
+}
+
+header {
+    background-color: #222;
+    border-radius: 35px;
+    position: sticky;
+    top: 2.5%;
+    width: 45vw; /** 45% original**/
+    margin-left: 27%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #4b4b4b;
+    backdrop-filter: blur(7);
+    font-family: Verdana;
+}
+
+a {
+    color: #f46a4c;
+    margin: 0.5%;
+}
+
+h1 {
+    font-weight: 15;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+input {
+    margin: 0.3em;
+    color: white;
+    background-color: #222;
+    border: white;
+    border-radius: 40px;
+    width: 12rem;
+    height: 1.5rem;
+}
+
+select {
+    background-color: #222;
+    color: white;
+}
+
+[type='submit'] {
+    background-color: white;
+    color: black;
+    width: 7rem;
+    height: 2.5rem;
+    border: white 2px solid;
+    border-radius: 40px;
+}
+
+.marginFix {
+    margin-left: 2.2%;
+    margin-right: 2.2%;
+}
+
+.navBarItems {
+    margin-right: 15%;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navBarItems:hover {
+    background-color: #4b4b4b;
+    border-radius: 35px;
+    border: 35rem;
+}
+
+.statBox {
+    height: 15em;
+    width: 15em;
+    margin: 1.1em;
+    background: linear-gradient(77deg, rgba(127,202,217,1) 0%, rgba(128,128,232,1) 14%, rgba(2,0,36,1) 100%); 
+    border-color: #111, 1px, solid;
+    border-radius: 35px;;
+}
+
+#introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#experiance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#skillsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#websiteTitleTop {
+    font-size: 10px;
+    display: flex;
+    justify-content: left;
+    margin-right: 17%;
+    
+}
+
+#navBarTop {
+    font-size: 15px;
+    display: flex;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 16%;
+    
+}
+
+#contactButtonTop {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: white;
+    color: black;
+    font: Verdana;
+    border-radius: 40em;
+    border: 50px;
+}
+
+#contactButtonTop:hover {
+    cursor: pointer;
+    background-color: rgb(181, 181, 181);
+}
+
+#imageCorrect {
+    height: 14em;
+    width: 11em;
+    border-radius: 35px;
+    border: #e6e6e6 0.2em solid;
+    flex-direction: row;
+}
+
+
+#aboutMeParagraph {
+    width: 45em;
+}
+
+#messageContactForm {
+    height: 7em;
+    width: 28em;
+}
+
+#pythonStatbox {
+    background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(232,225,128,1) 29%, rgba(93,167,242,1) 100%); 
+    color: black;
+}
+
+#htmlStatbox {
+    background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(232,197,128,1) 29%, rgba(195,98,4,1) 100%); 
+    color: black;
+}
+
+#cssStatbox {
+    background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(128,175,232,1) 29%, rgba(99,93,242,1) 100%); 
+    color: black;
+}
+
+#javascriptStatbox {
+    background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(232,185,128,1) 29%, rgba(222,242,93,1) 100%);
+    color: black; 
+}
