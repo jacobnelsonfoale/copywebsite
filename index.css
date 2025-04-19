@@ -12,7 +12,7 @@ header {
     width: 45vw; /** 45% original**/
     margin-left: 27%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid #4b4b4b;
     backdrop-filter: blur(7);
@@ -83,7 +83,7 @@ select {
     border-radius: 35px;;
 }
 
-#introduction {
+#aboutMe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ select {
     text-align: center;
 }
 
-#aboutMe {
+#experiance {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@ select {
     text-align: center;
 }
 
-#experiance {
+#experianceHeader {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,8 +166,8 @@ select {
 }
 
 #imageCorrect {
-    height: 14em;
-    width: 11em;
+    height: 30em;
+    width: 27em;
     border-radius: 35px;
     border: #e6e6e6 0.2em solid;
     flex-direction: row;
@@ -176,6 +176,8 @@ select {
 
 #aboutMeParagraph {
     width: 45em;
+    margin-top: 3rem;
+    margin-bottom: 0.1rem;
 }
 
 #messageContactForm {
@@ -186,6 +188,7 @@ select {
 #pythonStatbox {
     background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(232,225,128,1) 29%, rgba(93,167,242,1) 100%); 
     color: black;
+    /** background-image: url('./img/python.png'); **/
 }
 
 #htmlStatbox {
@@ -201,4 +204,44 @@ select {
 #javascriptStatbox {
     background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(232,185,128,1) 29%, rgba(222,242,93,1) 100%);
     color: black; 
+}
+
+#contactButton {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: white;
+    color: black;
+    font: Verdana;
+    border-radius: 40em;
+    border: 1px;
+}
+
+#prjectsButton {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #151515;
+    color: white;
+    font: Verdana;
+    border-radius: 40em;
+    
+    border: white 1px solid;
+}
+
+#aboutMeParagraphChild {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#aboutMeParagraphChildTwo {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+#aboutMeButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
 }
