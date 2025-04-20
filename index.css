@@ -1,7 +1,11 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: #151515;
     color: #e6e6e6;   
-    font-family: Verdana;
+    
 }
 
 header {
@@ -9,14 +13,15 @@ header {
     border-radius: 35px;
     position: sticky;
     top: 2.5%;
-    width: 45vw; /** 45% original**/
-    margin-left: 27%;
+    width: 49vw; /** 45% original**/
+    margin-left: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #4b4b4b;
     backdrop-filter: blur(7);
     font-family: Verdana;
+    height: 58px;
 }
 
 a {
@@ -66,6 +71,7 @@ select {
     color: #e6e6e6;
     text-decoration: none;
     font-size: 16px;
+    margin: 9px;
 }
 
 .navBarItems:hover {
@@ -89,6 +95,7 @@ select {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    height: 40vw;
 }
 
 #experiance {
@@ -136,6 +143,7 @@ select {
     display: flex;
     justify-content: left;
     margin-right: 17%;
+    margin-left: 10px;
     
 }
 
@@ -146,18 +154,21 @@ select {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-right: 16%;
+    margin-right: 17%;
+    
     
 }
 
 #contactButtonTop {
-    width: 5rem;
-    height: 2.5rem;
+    width: 6.5rem;
+    height: 2.7rem;
+    font-size: 16px;
     background-color: white;
     color: black;
     font: Verdana;
     border-radius: 40em;
     border: 50px;
+    margin-right: 10px;
 }
 
 #contactButtonTop:hover {
@@ -176,7 +187,7 @@ select {
 
 #aboutMeParagraph {
     width: 45em;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.1rem;
 }
 
@@ -207,29 +218,34 @@ select {
 }
 
 #contactButton {
-    width: 5rem;
-    height: 2.5rem;
+    width: 8rem;
+    height: 3.1rem;
+    font-size: 16px;
     background-color: white;
     color: black;
     font: Verdana;
     border-radius: 40em;
     border: 1px;
+    margin-right: 5px;
 }
 
 #prjectsButton {
-    width: 5rem;
-    height: 2.5rem;
+    width: 8rem;
+    height: 3.1rem;
+    font-size: 16px;
     background-color: #151515;
     color: white;
     font: Verdana;
     border-radius: 40em;
-    
+    margin-left: 5px;
     border: white 1px solid;
 }
 
 #aboutMeParagraphChild {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    font-size: 60px;
+    font-weight: 520;
 }
 
 #aboutMeParagraphChildTwo {
@@ -243,5 +259,12 @@ select {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
 
+
+#whiteCircle {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
