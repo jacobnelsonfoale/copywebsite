@@ -72,6 +72,7 @@ select {
     text-decoration: none;
     font-size: 16px;
     margin: 9px;
+    font-size: 16px;
 }
 
 .navBarItems:hover {
@@ -261,10 +262,36 @@ select {
     flex-direction: row;
 }
 
-
 #whiteCircle {
     background-color: white;
     height: 100px;
     width: 100px;
     border-radius: 50px;
+}
+
+/* Responsive Design */
+
+/* Phone */
+@media (max-width: 600px) {
+    
+
+    #websiteTitleTop {
+        font-size: 10px;
+        height: 1px; /*height: 30px;*/
+        width: 1px; /* width: 250px;*/
+        margin: 0px 0px 0px 0px;
+        visibility: hidden;
+        
+        
+    }
+
+    #navBarTop {
+        width: 15rem;
+        margin-right: 1%;
+    }
+
+    header {
+        margin-left: 18%;
+        width: 60vw;
+    }
 }
